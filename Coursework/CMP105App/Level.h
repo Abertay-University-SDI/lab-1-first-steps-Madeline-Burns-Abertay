@@ -15,5 +15,13 @@ private:
 	// Default functions for rendering to the screen.
 
 	// Default variables for level class.
-	
+	sf::CircleShape m_player;
+	enum direction
+	{
+		UP,
+		DOWN,
+		LEFT,
+		RIGHT
+	};
+	direction m_lastPressedDir;
 };
